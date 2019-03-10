@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Java Script Documentation</title>
+
+<!-- BOOTSTRAP LINKS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+<!-- JS LINKS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<!-- END OF HEAD -->
+
+<body>
+<!-- HEADER -->
+  <header>
+    <div class="jumbotron">
+      <h1 class="display-4">JavaScript</h1>
+      <p class="lead">All my JavaScript Notes</p>
+      <hr class="my-4">
+      <p>Below buttons are for external resources for Java Script.</p>
+      <a class="btn btn-primary btn-lg" href="index.html" role="button">Definitions</a>
+      <a class="btn btn-primary btn-lg" href="syntax.html" role="button">Syntaxes</a>
+    </div>
+  </header>
+<!-- END OF HEADER -->
+
+<!-- BODY -->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <!-- BASIC VARIABLE SYNTAX -->
+    <h1 class="display-4">Basic Variable Syntax</h1>
+    <div class="container text-center  basic-variable-syntax">
+      <div class="row">
+        <div class="col-sm">
+          <span class="badge badge-pill badge-primary">Var Keyword</span><br>
+          <h2 class="text-primary">var</h2>
+        </div>
+        <div class="col-sm">
+          <span class="badge badge-pill badge-secondary">Variable Name</span><br>
+          <h2 class="text-secondary">name</h2>
+        </div>
+        <div class="col-sm">
+          <span class="badge badge-pill badge-success">Assignment</span><br>
+        <h2 class="text-success">=</h2>
+        </div>
+        <div class="col-sm">
+          <span class="badge badge-pill badge-danger">Value</span><br>
+          <h2 class="text-danger">"Snow White"</h2>
+        </div>
+        <div class="col-sm">
+          <span class="badge badge-pill badge-warning">Termination</span><br>
+          <h2 class="text-warning">;</h2>
+        </div>
+      </div>
+    </div>
+    <!-- END OF BASIC VARIABLE SYNTAX -->
+
+    <!-- CONSOLE.LOG SYNTAX -->
+    <h1 class="display-4">Console.log() Syntax</h1>
+    <h2>console.log("string")</h2>
+    <h2>console.log(var)</h2>
+    <h2>console.log(15)</h2>
+    <h2>console.log(var + 15)</h2>
+    <h2>console.log(var + 15[index])</h2>
+    <!-- END OF CONSOLE.LOG SYNTAX -->
+
+    <!-- IF ELSE CONDITIONS -->
+    <div class="row">
+      <div class="col bg-dark">
+        <h1 class="display-4 text-success">If-Else Condition Syntax</h1>
+        <p class="text-warning"> if (condition) {</p>
+          <p class="text-primary">Run this block of code</p>
+        <p class="text-warning"> } else if (condition) {</p>
+          <p class="text-primary">Run this block of code</p>
+        <p class="text-warning"> } else (condition) {</p>
+          <p class="text-primary">Run this block of code</p>
+        <p class="text-warning"> }</p>
+      </div>
+
+      <div class="col bg-dark">
+        <h1 class="display-4 text-success">Comparators and Equality</h1>
+        <h3 class="text-primary"> === Is <span class="text-danger">equal</span> to same data type</h3>
+        <h3 class="text-primary"> == Is <span class="text-danger">equal</span> to same value</h3>
+        <h3 class="text-primary"> !== Is <span class="text-danger">not equal</span> to</h3>
+        <h3 class="text-primary"> > Is <span class="text-danger">greater</span> than</h3>
+        <h3 class="text-primary"> < Is <span class="text-danger">less</span> than</h3>
+        <h3 class="text-primary"> >= Is <span class="text-danger">greater or equal</span> to</h3>
+        <h3 class="text-primary"> <= Is <span class="text-danger">less or equal</span> to</h3>
+      </div>
+
+      <div class="col bg-dark">
+        <h1 class="display-4 text-success">Combining Comparators</h1>
+        <h3 class="text-primary"> && is<span class="text-danger">equal</span> and</h3>
+        <h3 class="text-primary"> || Is <span class="text-danger">equal</span> or</h3>
+        <h3 class="text-primary"> ! Is <span class="text-danger">equal</span> not</h3>
+        <h6 class="text-success">For Example</h6>
+        <p class="text-warning"> if (condition && condition) {</p>
+          <p class="text-primary">Run this block of code</p>
+        <p class="text-warning"> } else if (condition || condition) {</p>
+          <p class="text-primary">Run this block of code</p>
+        <p class="text-warning"> } else (condition) {</p>
+          <p class="text-primary">Run this block of code</p>
+        <p class="text-warning"> }</p>
+      </div>
+    </div>
+    <!-- END OF IF ELSE CONDITIONS -->
+
+    <!-- ARRAYS -->
+    <h1 class="display-4">Arrays</h1>
+    <p>To create an array create a variable, give it a name = add collection of data in [ ] separating each data by ,(coma)</p>
+    <h3><span class="text-primary">var </span><span class="text-success">names = </span>["Angela", "John", "Josh", "James"]</h3>
+    <p>To console.log an array</p>
+    <h3>console.log(name); OR console.log(name[0]);</h3>
+    <!-- END OF ARRAYS -->
+  </div>
+</div>
+<!-- END OF BODY -->
+
+<!-- FOOTER -->
+  <footer>
+    <p>Copyright &copy; 2019 | Mihir Patel</p>
+  </footer>
+<!-- END OF FOOTER -->
+
+
+</body>
+</html>

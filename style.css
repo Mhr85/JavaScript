@@ -1,0 +1,25 @@
+/*
+background-color: #e9ecef;
+ */
+
+/* HEADER */
+.jumbotron {
+  border-radius: none;
+  border-bottom: 2px solid #777;
+  margin-bottom: 0;
+}
+
+/* BODY */
+
+/* VARIABLE SYNTAX */
+/* .basic-variable-syntax {
+  padding: 25px;
+  text-align: center;
+} */
+
+/* FOOTER */
+footer {
+  background-color: #e9ecef;
+  text-align: center;
+  padding: 25px;
+}
